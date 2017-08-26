@@ -41,7 +41,7 @@ uint8_t MultiStepper::size()
 }
 ```
 
-`get()` method return selected stepper to caller function from multiple AccelSteppers array.
+`get()` method returns selected stepper to caller function from multiple AccelSteppers array.
 
 ```C
 AccelStepper& MultiStepper::get(uint8_t item)
