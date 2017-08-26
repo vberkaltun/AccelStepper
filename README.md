@@ -14,7 +14,7 @@ AccelStepper significantly improves on the standard Arduino Stepper library in s
 * Extensive API
 * Subclass support
 
-The latest version of this documentation can be downloaded from http://www.airspayce.com/mikem/arduino/AccelStepper The version of the package that this documentation refers to can be downloaded from http://www.airspayce.com/mikem/arduino/AccelStepper/AccelStepper-1.57.zip
+### Support
 
 Example Arduino programs are included to show the main modes of use.
 
@@ -24,11 +24,13 @@ You can also find online help and discussion at http://groups.google.com/group/a
 * http://www.catb.org/esr/faqs/smart-questions.html
 * http://www.chiark.greenend.org.uk/~shgtatham/bugs.html
 
+For more and detailed information please visit http://www.airspayce.com/mikem/arduino/AccelStepper/
+
+### Compatibility
+
 Tested on Arduino Diecimila and Mega with arduino-0018 & arduino-0021 on OpenSuSE 11.1 and avr-libc-1.6.1-1.15, cross-avr-binutils-2.19-9.1, cross-avr-gcc-4.1.3_20080612-26.5. Tested on Teensy http://www.pjrc.com/teensy including Teensy 3.1 built using Arduino IDE 1.0.5 with teensyduino addon 1.18 and later.
 
 ---
-
-###### For more information please visit http://www.airspayce.com/mikem/arduino/AccelStepper/
 
 ###### Improved by Berk Altun - www.vberkaltun.com
 
