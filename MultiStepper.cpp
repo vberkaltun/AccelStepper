@@ -71,6 +71,12 @@ void    MultiStepper::runSpeedToPosition()
 	;
 }
 
+// Returns total filled size of steppers array
+uint8_t MultiStepper::size()
+{
+    return _num_steppers;
+}
+
 // Get item on selected index and return it to caller function
 AccelStepper& MultiStepper::get(uint8_t item)
 {

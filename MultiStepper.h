@@ -62,6 +62,10 @@ public:
     void    runSpeedToPosition();
     
     /// Added by Berk Altun at 19.08.2017 - vberkaltun.com
+    /// \return total filled size of multiple AccelSteppers array
+    uint8_t size();
+    
+    /// Added by Berk Altun at 19.08.2017 - vberkaltun.com
     /// \return selected stepper to caller function from multiple AccelSteppers array, working with pointer
     AccelStepper& get(uint8_t item);
     
