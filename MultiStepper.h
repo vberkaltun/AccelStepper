@@ -61,6 +61,10 @@ public:
     /// want blocking consider using run() instead.
     void    runSpeedToPosition();
     
+    /// Added by Berk Altun at 19.08.2017 - vberkaltun.com
+    /// \return selected stepper to caller function from multiple AccelSteppers array, working with pointer
+    AccelStepper& get(uint8_t item);
+    
 private:
     /// Array of pointers to the steppers we are controlling.
     /// Fills from 0 onwards

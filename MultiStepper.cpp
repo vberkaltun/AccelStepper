@@ -71,3 +71,8 @@ void    MultiStepper::runSpeedToPosition()
 	;
 }
 
+// Get item on selected index and return it to caller function
+AccelStepper& MultiStepper::get(uint8_t item)
+{
+    return *_steppers[item];
+}
