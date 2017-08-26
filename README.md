@@ -28,4 +28,7 @@ Tested on Arduino Diecimila and Mega with arduino-0018 & arduino-0021 on OpenSuS
 
 ---
 
-For more information please visit http://www.airspayce.com/mikem/arduino/AccelStepper/
+###### For more information please visit http://www.airspayce.com/mikem/arduino/AccelStepper/
+
+###### Improved by Berk Altun - www.vberkaltun.com
+
