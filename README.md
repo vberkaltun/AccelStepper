@@ -24,11 +24,36 @@ You can also find online help and discussion at http://groups.google.com/group/a
 * http://www.catb.org/esr/faqs/smart-questions.html
 * http://www.chiark.greenend.org.uk/~shgtatham/bugs.html
 
-For more and detailed information please visit http://www.airspayce.com/mikem/arduino/AccelStepper/
-
 ### Compatibility
 
 Tested on Arduino Diecimila and Mega with arduino-0018 & arduino-0021 on OpenSuSE 11.1 and avr-libc-1.6.1-1.15, cross-avr-binutils-2.19-9.1, cross-avr-gcc-4.1.3_20080612-26.5. Tested on Teensy http://www.pjrc.com/teensy including Teensy 3.1 built using Arduino IDE 1.0.5 with teensyduino addon 1.18 and later.
+
+### Changelog [Differences from Core Repo]
+
+In this repo, some additional features was added to the core repository. This features can explainable as `size()` and `get()` methods.
+
+`size()` method returns total filled size of multiple AccelSteppers array to caller function.
+
+```C
+uint8_t MultiStepper::size()
+{
+    return _num_steppers;
+}
+```
+
+`get()` method return selected stepper to caller function from multiple AccelSteppers array.
+
+```C
+AccelStepper& MultiStepper::get(uint8_t item)
+{
+    return *_steppers[item];
+}
+
+```
+
+### Author
+
+This is a Github mirror of the AccelStepper source code from http://www.airspayce.com/mikem/arduino/AccelStepper/ This software is Copyright (C) 2008 Mike McCauley. It is provided under the GNU GPL 2.0 license.
 
 ---
 
